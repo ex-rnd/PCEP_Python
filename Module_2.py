@@ -118,6 +118,34 @@ print((2 ** 4), (2 * 4.), (2 * 4))
 
 print((-2 / 4), (2 / 4), (2 // 4), (-2 // 4))
 
+var = 1
+print(var)
+
+var = 1
+account_balance = 1000.0
+client_name = 'John Doe'
+print(var, account_balance, client_name)
+print(var)
+
+var = "3.8.5"
+print("Python version: " + var)
+
+var = 1
+print(var)
+var = var + 1
+print(var)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

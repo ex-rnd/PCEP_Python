@@ -191,3 +191,120 @@ b = 3
 a /= 2 * b
 print(a)
 
+# This program evaluates the hypotenuse c.
+# a and b are the lengths of the legs.
+a = 3.0
+b = 4.0
+c = (a ** 2 + b ** 2) ** 0.5  # We use ** instead of a square root.
+print("c =", c)
+
+uncomment_me = 1
+uncomment_me_too = 3
+uncomment_me_also = 5
+
+print(uncomment_me, uncomment_me_too, uncomment_me_also, sep="\n")
+
+
+# this program computes the number of seconds in a given number of hours
+# this program has been written two days ago
+
+numOfHours = 2 # number of hours
+numofSecondsPerHour = 3600 # number of seconds in 1 hour
+
+print("Hours: ", numOfHours) 
+print("Seconds in Hours: ", numOfHours * numofSecondsPerHour) 
+
+print("Goodbye!")
+
+
+# print("Tell me anything...")
+# anything = input()
+# print("Hmm...", anything, "... Really?")
+
+# anything = input("Enter a number: ")
+# something = float(anything) ** 2.0
+# print(anything, "to the power of 2 is", something)
+
+# anything = float(input("Enter a number: "))
+# something = anything ** 2.0
+# print(anything, "to the power of 2 is", something)
+
+# leg_a = float(input("Input first leg length: "))
+# leg_b = float(input("Input second leg length: "))
+# hypo = (leg_a**2 + leg_b**2) ** .5
+# print("Hypotenuse length is", hypo)
+
+# leg_a = float(input("Input first leg length: "))
+# leg_b = float(input("Input second leg length: "))
+# print("Hypotenuse length is", (leg_a**2 + leg_b**2) ** .5)
+
+# fnam = input("May I have your first name, please? ")
+# lnam = input("May I have your last name, please? ")
+# print("Thank you.")
+# print("\nYour name is " + fnam + " " + lnam + ".")
+
+print("+" + 10 * "-" + "+")
+print(("|" + " " * 10 + "|\n") * 5, end="")
+print("+" + 10 * "-" + "+")
+
+# leg_a = float(input("Input first leg length: "))
+# leg_b = float(input("Input second leg length: "))
+# print("Hypotenuse length is " + str((leg_a**2 + leg_b**2) ** .5))
+
+# input a float value for variable a here
+# input a float value for variable b here
+a = 4.0
+b = 2.0
+
+# output the result of addition here
+# output the result of subtraction here
+# output the result of multiplication here
+# output the result of division here
+  
+add = a + b
+print(float(add))
+
+sub = a - b
+print(float(sub))
+
+mul = a * b
+print(float(mul))
+
+div = a // b
+print(float(div))
+
+
+print("\nThat's all, folks!")
+
+# x = float(input("Enter value for x: "))
+# y = 1./(x + 1./(x + 1./(x + 1./x)))
+# print("y =", y)
+
+# hour = int(input("Starting time (hours): "))
+# mins = int(input("Starting time (minutes): "))
+# dura = int(input("Event duration (minutes): "))
+# mins = mins + dura # find a total of all minutes
+# hour = hour + mins // 60 # find a number of hours hidden in minutes and update the hour
+# mins = mins % 60 # correct minutes to fall in the (0..59) range
+# hour = hour % 24 # correct hours to fall in the (0..23) range
+# print(hour, ":", mins, sep='')
+
+
+x = int(input())
+y = int(input())
+ 
+x = x % y
+x = x % y
+y = y % x
+ 
+print(y)
+
+
+
+
+
+
+
+
+
+

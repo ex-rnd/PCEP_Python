@@ -145,33 +145,49 @@ print(
 #     else:
 #         print("Ha ha! You're stuck in my loop!")
 #         number = int(input("Please, guess a number randomly\n"))
-        
-    
-    
+         
 # print("Well done, muggle! You are free now.")
 
 
+# i = 0
+# while i < 100:
+#     # do_something()
+#     i += 1
 
 
+# for i in range(10):
+#     print("The value of i is currently", i)
 
 
+# for i in range(2, 8):
+#     print("The value of i is currently", i)
 
 
+# for i in range(2, 8, 3):
+#     print("The value of i is currently", i)
 
 
+# for i in range(1, 1):
+#     print("The value of i is currently", i)
 
 
+# power = 1
+# for expo in range(16):
+#     print("2 to the power of", expo, "is", power)
+#     power *= 2
 
 
+# import time
 
+# # Write a for loop that counts to five.
+# for i in range(5):
+#     print(i+1, " Mississippi")
+#     time.sleep(1)
+#     # Body of the loop - print the loop iteration number and the word "Mississippi".
+#     # Body of the loop - use: time.sleep(1)
 
-
-
-
-
-
-
-
+# # Write a print function with the final message.
+# print("Ready or not, here I come!")
 
 
 

@@ -191,14 +191,86 @@ print(
 
 
 
+# # break - example
+
+# print("The break instruction:")
+# for i in range(1, 6):
+#     if i == 3:
+#         break
+#     print("Inside the loop.", i)
+# print("Outside the loop.")
+
+
+# # continue - example
+
+# print("\nThe continue instruction:")
+# for i in range(1, 6):
+#     if i == 3:
+#         continue
+#     print("Inside the loop.", i)
+# print("Outside the loop.")
+
+# largest_number = -99999999
+# counter = 0
+
+# while True:
+#     number = int(input("Enter a number or type -1 to end the program: "))
+#     if number == -1:
+#         break
+#     counter += 1
+#     if number > largest_number:
+#         largest_number = number
+
+# if counter != 0:
+#     print("The largest number is", largest_number)
+# else:
+#     print("You haven't entered any number.")
+
+
+# largest_number = -99999999
+# counter = 0
+
+# number = int(input("Enter a number or type -1 to end program: "))
+
+# while number != -1:
+#     if number == -1:
+#         continue
+#     counter += 1
+
+#     if number > largest_number:
+#         largest_number = number
+#     number = int(input("Enter a number or type -1 to end the program: "))
+
+# if counter:
+#     print("The largest number is", largest_number)
+# else:
+#     print("You haven't entered any number.")
 
 
 
+# word = str(input("Please enter a word. Enter chupacabra to exit ..."))
+
+# while word != "chupacabra":
+#     if word == "chupacabra":
+#         break
+#     word = str(input("Please enter a word. Enter chupacabra to exit ..."))
 
 
 
+# # Prompt the user to enter a word
+# # and assign it to the user_word variable.
+# user_word = str(input("Please enter a word. I eat vowels ... \n"))
 
+# for letter in user_word:
+#     # Complete the body of the for loop.
+#     user_word = user_word.upper()
+#     for x in user_word:
+#         if x=='A' or x=='E' or x=='I' or x=='O' or x=='U':
+#             user_word = user_word.replace(x, '')
+#         else:
+#             continue
 
+# print(user_word)
 
 
 
